@@ -1,0 +1,50 @@
+td img{width: 60px;}
+
+#head_title, #copyTitel{ text-align: center; width:100%;line-height:260%; }
+
+.headBg, .footBg{background: tomato;color: #f4f4f4 !important;height: 120px; line-height: 120px;}
+a,a:hover{
+	text-decoration: none !important;
+}
+.footBg{height: 50px; line-height: 50px;}
+.signForm h2{text-align: center;margin-top: 50px;color: tomato;width: 100%;}
+.signForm form {
+    text-align: center;
+    width: 250px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 50px;
+    border: 4px solid tomato;
+    padding: 16px;
+    margin-bottom: 5px;
+}
+
+.signForm form input {
+    width: 98%;
+    border: 1px solid #ddd;
+    padding: 9px 0px;
+    margin-bottom: 18px;
+}
+.signForm form input[type="text"] {
+    padding-left: 5px;
+    color: #211f1f;
+}
+.signForm form input[type="file"] {
+    border: navajowhite;
+    margin: -10px 0 5px 0;
+}
+
+.signForm form input[type="submit"] {
+    margin-bottom: 0;
+}
+.userProfile{
+	color:#443939;
+}
+#profils{
+	
+}
+span#log_wrong_mg{
+	margin-top: 5px;
+	color: red;
+}
+img.avatar_img{width: 150px;}
