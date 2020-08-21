@@ -1,0 +1,14 @@
+//single datebae
+CREATE DATABASE database_name;
+
+//single tabel
+//IF NOT EXISTS
+CREATE TABLE table_name(
+id INT(20) NOT NULL AUTO_INCREMENT,
+fName VARCHAR(100),
+lName VARCHAR(100),
+PRIMARY KEY(id)
+);
+// add single column appending a table
+ALTER TABLE table_Name ADD column_Name VARCHAR(20);
+
